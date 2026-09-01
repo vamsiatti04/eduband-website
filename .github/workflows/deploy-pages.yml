@@ -39,8 +39,6 @@ jobs:
       # enablement: true turns Pages on automatically — no manual repo setting.
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
